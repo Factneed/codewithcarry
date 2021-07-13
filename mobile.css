@@ -1,0 +1,36 @@
+@media screen and (max-width: 1000px) {
+    .navigation {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main {
+        background-color: rgb(68, 170, 21);
+
+
+    }
+
+    .main ul li {
+        padding: 0;
+        margin: 0;
+
+
+    }
+
+    .main ul {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .main ul li a {
+        color: red;
+
+    }
+.content-right{
+    display: none;
+}
+
+}

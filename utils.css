@@ -1,0 +1,57 @@
+:root{
+    --main-bg-color: #18bd3c;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
+
+.fontff{
+    font-family: "Baloo Bhaina 2", cursive; } 
+.font{
+font-family: 'Asap Condensed', sans-serif; ;
+
+}
+.fontf{
+    font-family: 'Lato', sans-serif;
+}
+.fonts{
+    font-size: 19px; 
+}
+
+.max-width{
+    max-width: 80vw;
+
+}
+.bg{
+    background-color: lightsalmon;
+}
+
+
+
+.color{
+    color: rgb(97, 6, 21);
+}
+.font1{
+    
+}
+.m-auto{
+    margin: auto;
+}
+.my{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    
+}
+.mx{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.py{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.px{
+    padding-right: 10px;
+    padding-left: 10px;
+}

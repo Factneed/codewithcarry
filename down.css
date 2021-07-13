@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: rgb(6, 75, 6);
+    text-align: center;
+    width: 125;
+}
+.main ul{
+    display: inline-flex;
+    color: white; 
+     
+}
+
+.main ul li{
+    
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 11px;
+    
+    padding: 7px;
+   
+    font-size: 28px;
+  padding: 0 0 0 29px;
+}
+
+.main ul li a{
+    text-decoration: none;
+     color: white;
+     
+    
+}
+
+.main ul li a .fa{
+ 
+    padding-right: 6px;
+    
+}
+.main ul li :hover{
+    text-decoration: none;
+    background: rgb(61, 146, 57);
+     padding-left:8px;
+     padding-right: 8px;
+     padding-top: 3px;
+     padding-bottom: 5px;
+    border-radius: 10px;
+}
+.sunn  {
+   display: none;
+}
+
+.main ul li:hover .sunn {
+    display: block;
+     position: absolute;
+     background: rgb(6, 75, 6);
+    
+       
+    }
+     .main ul li:hover .sunn ul{
+        display: block;
+         position: absolute;
+         background: rgb(6, 75, 6);
+      margin-top: 6px;
+           margin-left: -17px;
+        }
+
+.sunn ul {
+    border-radius: 10px;
+    
+}
+.sunn ul li a {
+  padding-right: 19px;
+    text-align: center;
+}
+
+
+.sunn1  {
+    display: none;
+ }
+ 
+ .sunn ul li:hover .sunn1 {
+     display: block;
+      position: absolute;
+      background: rgb(6, 75, 6);
+       margin-top: -50px;
+            margin-left: 170px;
+        
+     }
+      .sunn ul li:hover .sunn1 ul{
+         display: block;
+          position: absolute;
+          background: rgb(6, 75, 6);
+     
+         }
+ 
+ .sunn1 ul {
+     border-radius: 10px;
+     
+ }
+
+
+
+
+
